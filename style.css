@@ -92,6 +92,9 @@ a{
     font-size: 40px;
     
 }
+.graphics-designer h3{
+    color: orange;
+}
 footer{
     text-align: center;
 }
