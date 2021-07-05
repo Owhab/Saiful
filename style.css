@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+.welcome-section{
+    display: flex;
+    
+}
+.content{
+    width: 40%;
+    margin: 5%;
+
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    line-height: 2;
+}
+.photo-section{
+    width: 40%;
+    margin: 5%;
+}
+.photo-section img{
+    width: 80%;
+}
+.name{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(248, 121, 2));
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: white;
+}
+.profile{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+}
+
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-section{
+    display: flex;
+}
+.exp{
+    font-size: 40px;
+}
+.photographer{
+    width: 40%;
+    margin: 5%;
+    padding-left: 10px;
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+    
+
+}
+.photographer h1{
+    font-size: 40px;
+
+}
+.photographer h3{
+    color: orange;
+}
+.graphics-designer{
+    width: 40%;
+    margin: 5%;
+    padding-left: 10px;
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.graphics-designer h1{
+    font-size: 40px;
+    
+}
+footer{
+    text-align: center;
+}
